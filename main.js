@@ -1,9 +1,19 @@
-function checkPositive (number)
+function printHelloWorldx3times(i){
+    for (let i = 0; i < 3; i++) {
+        console.log("Hello, World")
+    }
+}
+    
+printHelloWorldx3times(1)
+printHelloWorldx3times(2)
+printHelloWorldx3times(3)
+
+function checkPositive (num)
 {
-    if (number < 0) {
+    if (num < 0) {
         console.log("number is negative")
     }
-    else if (number > 0) {
+    else if (num > 0) {
         console.log("number is positive")
     }
     else {
@@ -12,4 +22,25 @@ function checkPositive (number)
 }
 checkPositive (-50)
 checkPositive (50)
-checkPositive (4)
+checkPositive (0)
+
+
+/////	Write a function that returns the day of the week by its numbers
+
+function ReturnGreatestNumber(number1, number2) 
+{
+    if (number1<number2) {
+        console.log("The greatest number is: %i", number2)
+    }
+    else if (number1>number2) {
+        console.log("The greatest number is: %i", number1)
+    }
+    else {
+        console.log("The numbers are equal")
+    }
+}
+
+ReturnGreatestNumber(50,50)
+ReturnGreatestNumber(0,9)
+ReturnGreatestNumber(99,9)
+
