@@ -1,3 +1,4 @@
+////1.	Write a function that prints “Hello, World!” three times (line by line).
 function printHelloWorldx3times(i){
     for (let i = 0; i < 3; i++) {
         console.log("Hello, World")
@@ -8,6 +9,8 @@ printHelloWorldx3times(1)
 printHelloWorldx3times(2)
 printHelloWorldx3times(3)
 
+
+/////9.	Write a function to check whether a given number is positive or negative.
 function checkPositive (num)
 {
     if (num < 0) {
@@ -25,7 +28,7 @@ checkPositive (50)
 checkPositive (0)
 
 
-/////	Write a function that returns the day of the week by its numbers
+//////13.	Write a function that returns the greatest among the given two numbers.
 
 function ReturnGreatestNumber(number1, number2) 
 {
